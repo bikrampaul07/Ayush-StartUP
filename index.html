@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reg</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><img src="main.png" alt="" class="nav-img">
+                <img src="Logo_Ministry_of_AYUSH.png" alt="" class="nav-img">
+                <img src="azadi.png" alt="">
+            </li>
+            <li>
+                <div class="search-profile search">
+                    <input type="search" placeholder="Type to search...">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="search-profile">
+                    <div class="profile"><i class="fa-solid fa-user"></i></div>
+                <div>
+            </li>
+        </ul>
+    </header>
+    <div class="content">
+        <div class="progress-bar">
+            <div class="div1"><span>1</span><p class="step">STEP</p></div>
+            <div class="bar"></div>
+            <div class="div2"><span>2</span><p class="step">STEP</p></div>
+            <div class="bar"></div>
+            <div class="div3"><span>3</span><p class="step">STEP</p></div>
+            <div class="bar"></div>
+            <div class="div4"><span>4</span><p class="step">STEP</p></div>
+        </div>
+        <div class="details">
+            <div class="grid-div">
+                <p>Entity/Company Logo <span style="color: #f74c06; font-size: 22px">*</span></p>
+                <div class="entry-logo">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="grid-div">
+                <p>STAGE<span style="color: #f74c06; font-size: 22px">*</span></p>
+                <div class="stage">
+                    <button>Ideation</button>
+                    <button>Validation</button>
+                    <button>Early Traction</button>
+                    <button>Scaling</button>
+                </div>
+            </div>
+            <div class="grid-div">
+                <p>Is this your Company/Institution logo<span style="color: #f74c06; font-size: 22px">*</span></p>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="grid-div Brief">
+                <p>Brief<span style="color: #f74c06; font-size: 22px">*</span></p>
+                <div class="brief-div">
+                    <button class="main-button">
+                        <div>
+                            <i class="fa-solid fa-link"></i>
+                        </div>
+                    </button>
+                    <textarea name="brief" id=""></textarea>
+                </div>
+            </div>
+            <div class="grid-div">
+                <p>Startup Name<span style="color: #f74c06; font-size: 22px">*</span></p>
+                <input type="text" placeholder="Startup name will replace the display name if provided" class="input-name-startup">
+            </div>
+            <div class="grid-div">
+                <p>Funded/Bootstrapped<span style="color: #f74c06; font-size: 22px">*</span></p>
+                <div class="boot-fund">
+                    <span>
+                        <input type="radio" id="fund" name="fund">
+                        <label for="fund">Funded</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="boot" name="fund">
+                        <label for="boot">Bootstrapped</label>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
